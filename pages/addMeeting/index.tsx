@@ -12,7 +12,7 @@ const NewMeeting = () => {
                 </div>
                 <div className="mb-4">
                     <label htmlFor="description" className="block text-gray-700 text-sm font-bold mb-2">Description:</label>
-                    <input type="text" id="description" name="description" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"/>
+                    <textarea id="description" name="description" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"/>
                 </div>
                 <button type="submit" className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800">Submit</button>
             </form>

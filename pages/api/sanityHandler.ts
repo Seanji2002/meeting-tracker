@@ -17,7 +17,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
             }
 
             //case where we need to modify
-            if (doc._id) {
+            if (doc._id != undefined) {
                 await client.createOrReplace({
                     ...toBeUploaded,
                     _id: doc._id,
