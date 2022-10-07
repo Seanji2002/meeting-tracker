@@ -1,8 +1,8 @@
 import { SanityCodegenConfig } from 'sanity-codegen';
 
 const config = {
-    schemaPath: './meeting-backend/schemas/schema.js',
-    outputPath: './schema.js',
+    schemaPath: './meeting-backend/schemas/schema.ts',
+    outputPath: './schema.ts',
 };
 
 export default config;
