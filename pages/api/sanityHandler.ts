@@ -1,6 +1,5 @@
 import client from "../../utils/client";
-import type {NextApiRequest, NextApiHandler, NextApiResponse} from "next";
-import {number} from "prop-types";
+import {NextApiRequest, NextApiResponse} from "next";
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
     try {
